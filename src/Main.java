@@ -1,3 +1,7 @@
+import banco.cliente.Cliente;
+import banco.conta.Conta;
+import banco.conta.ContaCorrente;
+import banco.conta.ContaPoupanca;
 
 public class Main {
 

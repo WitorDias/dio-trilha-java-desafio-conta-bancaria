@@ -1,3 +1,5 @@
+package banco.conta;
+import banco.cliente.Cliente;
 
 public abstract class Conta implements IConta {
 	
