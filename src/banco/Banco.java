@@ -1,6 +1,7 @@
 package banco;
 import java.util.List;
 
+import banco.cliente.Cliente;
 import banco.conta.Conta;
 
 public class Banco {
@@ -22,6 +23,11 @@ public class Banco {
 
 	public void setContas(List<Conta> contas) {
 		this.contas = contas;
+	}
+	
+	public List<Cliente> imprimirListaClientes(List<Cliente> clientes) {
+		System.out.println("Lista de clientes: " + clientes);
+		return clientes;
 	}
 
 }
